@@ -5,6 +5,12 @@ class Artist
   def initialize
   end
 
+  def songs
+    Song.all.select do |song|
+      song.artist == self
+    end
+  end
+
   def new_song(song, genre)
     @song =
     @genre = genre
