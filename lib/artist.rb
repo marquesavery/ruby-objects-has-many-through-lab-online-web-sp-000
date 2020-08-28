@@ -5,7 +5,9 @@ class Artist
   def initialize
   end
 
-  def new_song
+  def new_song(name, genre)
+    @ 
+    @genre = genre
   end
 
   def self.all
