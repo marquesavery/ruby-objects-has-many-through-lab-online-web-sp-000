@@ -5,6 +5,11 @@ class Artist
   def initialize
   end
 
+  def new_song
+  end
+
   def self.all
   end
+
+
 end
