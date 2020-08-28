@@ -1,3 +1,4 @@
+binding 'pry'
 class Artist
   attr_accessor :name, :song, :genre
   @@all = []
