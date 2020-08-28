@@ -21,7 +21,6 @@ class Genre
     end
 
   def self.all
-    binding.pry
     @@all
   end
 end
