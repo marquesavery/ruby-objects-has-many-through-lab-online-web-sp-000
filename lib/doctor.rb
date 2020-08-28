@@ -3,7 +3,7 @@ class Doctor
 
   @@all = []
 
-  def initialize
+  def initialize()
   end
 
   def self.all
