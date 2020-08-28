@@ -11,6 +11,12 @@ class Artist
     end
   end
 
+  def genres
+    songs.collect do |song|
+      song.genre
+    end
+  end
+
   def new_song(song, genre)
     @song =
     @genre = genre
